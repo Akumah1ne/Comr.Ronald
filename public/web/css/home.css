@@ -1,0 +1,76 @@
+@import url('header.css');
+@import url('footer.css');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --colorDanger: #d40000;
+    --colorWhite: #ffffff;
+    --colorSecondary: rgb(224, 224, 224);
+    --colorDark: #000;
+    --fontFamily: 'Kanit', sans-serif;
+}
+
+* > * {
+    font-family: var(--fontFamily);
+}
+
+H2{
+    font-size: 38px !important;
+}
+
+h3{
+    margin: 12px 0px;
+}
+h4{
+    color: white;
+    font-size: 27px;
+    margin: 12px 0px;
+}
+
+.danger{
+    color: var(--colorDanger);
+}
+
+.event{
+    background-color: var(--colorSecondary);
+    padding: 50px 60px;
+}
+
+.image{
+    position: relative;
+    margin: 50px 0px;
+    /* text-align: center; */
+}
+.image-text{
+    position: absolute;
+    top: 50px;
+    color: var(--colorSecondary);
+    width: 50%;
+    padding: 0px 70px;
+}
+
+.image-text1{
+    position: absolute;
+    top: 150px;
+    left: 120px;
+    padding: 0px 70px;
+}
+
+.connect{
+    background-color: rgb(50,68,105);
+    padding: 70px 30px;
+    margin: 40px 0px;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    margin: 18px 0px;
+}
+ul{
+    padding: 0;
+}
+li {
+    list-style: none;
+    line-height: 29px;
+}
