@@ -26,6 +26,12 @@ h4{
     font-size: 27px;
     margin: 12px 0px;
 }
+h5{
+    color: var(--colorDanger);
+}
+h6{
+    margin: 0px;
+}
 
 .danger{
     color: var(--colorDanger);
@@ -38,7 +44,7 @@ h4{
 
 .image{
     position: relative;
-    margin: 50px 0px;
+    margin: 0px 0px;
     /* text-align: center; */
 }
 .image-text{
@@ -56,10 +62,60 @@ h4{
     padding: 0px 70px;
 }
 
+.image-text2{
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    padding: 0px 70px;
+}
+.image-text3{
+    position: absolute;
+    top: 200px;
+    left: 290px;
+    padding: 0px 70px;
+}
+
 .connect{
     background-color: rgb(50,68,105);
     padding: 70px 30px;
     margin: 40px 0px;
+}
+
+.submit{
+    padding: 10px 30px;
+    margin-top: 11px;
+    background-color: var(--colorDanger);
+    color: var(--colorWhite);
+    border: none;
+    display: block;
+    margin-left: auto;
+}
+
+.fraud{
+    padding: 10px 30px;
+    margin-top: 11px;
+    background-color: rgb(50,68,105);
+    color: var(--colorWhite);
+    border: none;
+}
+.fraud:hover{
+    background-color: rgb(170, 170, 170);
+    transition: all 0.5s ease;
+}
+
+.refer{
+    width: 100%;
+    display: block;
+    height: 500px;
+}
+.refer:hover{
+    transform: scale(1.02);
+    transition: all 0.5s ease;
+}
+
+.submit:hover{
+    background-color: rgb(170, 170, 170);
+    transition: all 0.5s ease;
 }
 
 p{
@@ -73,4 +129,7 @@ ul{
 li {
     list-style: none;
     line-height: 29px;
+}
+.dot{
+    border-bottom: 1px dotted black;
 }

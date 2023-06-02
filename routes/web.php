@@ -18,3 +18,6 @@ Route::get('/', function () {
 });
 
 Route::get('/home', 'HomeController@index')->name('home.index');
+Route::get('/contact', 'HomeController@contact')->name('contact.index');
+Route::get('/careers', 'HomeController@careers')->name('careers.index');
+Route::get('/enroll', 'HomeController@enroll')->name('enroll.index');
