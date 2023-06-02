@@ -21,4 +21,12 @@ class HomeController extends Controller
     public function enroll(){
         return view('enroll');
     }
+
+    public function absence(){
+        return view('absence');
+    }
+
+    public function calendars(){
+        return view('calendars');
+    }
 }

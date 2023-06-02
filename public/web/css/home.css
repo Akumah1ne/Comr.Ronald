@@ -17,7 +17,10 @@
 H2{
     font-size: 38px !important;
 }
-
+a{
+    text-decoration: none !important;
+    color: black;
+}
 h3{
     margin: 12px 0px;
 }
